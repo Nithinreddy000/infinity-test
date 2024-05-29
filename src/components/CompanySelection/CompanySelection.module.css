@@ -3,29 +3,51 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.header {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
+}
+.hello{
+    display: block !important;
 }
 
 .searchInput {
+    flex: 1; 
     padding: 10px;
-    margin-bottom: 10px;
-    width: 100%;
+    margin-right: 10px; 
     max-width: 400px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 16px;
 }
 
+.buttonsContainer {
+    display: flex;
+}
+.min{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px ;
+    font-weight: 500;
+}
 .searchButton {
+    width: 53px;
     padding: 10px 20px;
-    margin-bottom: 20px;
     border: none;
-    border-radius: 4px;
-    background-color: #007bff;
+    border-radius: 50%;
+    background-color: white;
     color: #fff;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Add margin between buttons */
+
 }
 
 .searchButton:hover {
@@ -44,8 +66,23 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.companyItem:hover {
+    background-color: #f0f0f0;
 }
 
 .error {
     color: red;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.active {
+    display: block !important;
+}
+.q{
+    height: 27px;
 }
