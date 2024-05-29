@@ -1,0 +1,20 @@
+infinity/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── LicenseValidation/
+│   │   │   ├── LicenseValidation.jsx
+│   │   │   ├── LicenseValidation.module.css
+│   │   ├── CompanySelection/
+│   │   │   ├── CompanySelection.jsx
+│   │   │   ├── CompanySelection.module.css
+│   │   ├── CompanyLogin/
+│   │   │   ├── CompanyLogin.jsx
+│   │   │   ├── CompanyLogin.module.css
+│   ├── App.js
+│   ├── index.js
+├── server.js
+├── database.js
+├── package.json
+├── package-lock.json
