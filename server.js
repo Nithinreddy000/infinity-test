@@ -36,9 +36,9 @@ app.post('/api/license-validation', (req, res) => {
 
 // Mock companies data
 const companies = [
-    { id: 1, name: 'Mock Company A' },
-    { id: 2, name: 'Mock Company B' },
-    { id: 3, name: 'Mock Company C' }
+    { id: '1', name: 'Google' },
+    { id: '2', name: 'Microsoft' },
+    { id: '3', name: 'Tesla' }
 ];
 
 // Companies Endpoint
@@ -51,7 +51,6 @@ app.get('/api/companies', (req, res) => {
         res.status(401).json({ message: 'Unauthorized' });
     }
 });
-
 // Company Login Endpoint
 app.post('/api/company-login', (req, res) => {
     const { email, password, companyId } = req.body;
